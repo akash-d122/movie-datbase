@@ -34,7 +34,7 @@ const Index = () => {
   const [watchLaterIds, setWatchLaterIds] = useState<number[]>(() => {
     // Load from localStorage on component mount
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('cinevault-watchlater');
+      const saved = localStorage.getItem('movie-database-watchlater');
       return saved ? JSON.parse(saved) : [];
     }
     return [];
@@ -44,7 +44,7 @@ const Index = () => {
   // Save watchLaterIds to localStorage whenever it changes
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('cinevault-watchlater', JSON.stringify(watchLaterIds));
+      localStorage.setItem('movie-database-watchlater', JSON.stringify(watchLaterIds));
     }
   }, [watchLaterIds]);
 
@@ -160,7 +160,7 @@ const Index = () => {
         <div className="text-center">
           <Loader2 className="w-12 h-12 animate-spin text-primary mx-auto mb-4" />
           <h2 className="text-2xl font-semibold text-foreground mb-2">
-            Loading CineVault
+            Loading Movie Database
           </h2>
           <p className="text-muted-foreground">
             Preparing your cinematic experience...

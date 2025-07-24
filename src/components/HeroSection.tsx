@@ -68,7 +68,7 @@ export const HeroSection = ({ featuredMovie, totalMovies }: HeroSectionProps) =>
         {/* Main Headline */}
         <div className="mb-8">
           <Badge className="gradient-primary text-lg px-6 py-2 mb-6 font-semibold">
-            Welcome to CineVault
+            Welcome to Movie Database
           </Badge>
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-white mb-6 text-glow leading-tight">
             Discover

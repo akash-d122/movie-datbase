@@ -1,4 +1,4 @@
-# CineVault – Cinematic Movie Explorer
+# Movie Database – Cinematic Movie Explorer
 
 **Developer:** Akash D  
 **GitHub:** [github.com/akash-d122](https://github.com/akash-d122)  
@@ -23,17 +23,19 @@ A dark-themed, cinematic movie browsing web application with rich UI and interac
 - Tailwind CSS
 - Fetch API
 
+## Live Demo
 
+[Add your deployed link here]
 
 ## Setup Instructions
 
 ```bash
-git clone https://github.com/akash-d122/cinevault
-cd cinevault
+git clone https://github.com/akash-d122/movie-database
+cd movie-database
 npm install
 npm run dev
 ```
 
 ---
 
-> CineVault is designed for both desktop and mobile, offering a seamless, immersive movie discovery experience.
+> Movie Database is designed for both desktop and mobile, offering a seamless, immersive movie discovery experience.
